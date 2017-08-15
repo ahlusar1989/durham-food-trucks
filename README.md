@@ -1,6 +1,5 @@
 # dc-food-trucks
-API for Food Trucks App for the City of Durham
-
+API for Food Trucks App for Washington, DC
 
 ## Stack
 Python 3.6
