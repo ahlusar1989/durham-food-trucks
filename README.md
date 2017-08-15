@@ -1,4 +1,4 @@
-# durham-food-trucks
+# dc-food-trucks
 API for Food Trucks App for the City of Durham
 
 
