@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'corsheaders',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -36,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'durhamfoodtrucks.urls'
+ROOT_URLCONF = 'dcfoodtrucks.urls'
 
 TEMPLATES = [
     {
@@ -54,7 +55,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'durhamfoodtrucks.wsgi.application'
+WSGI_APPLICATION = 'dcfoodtrucks.wsgi.application'
 
 
 # Password validation
@@ -180,6 +181,6 @@ TW_ACCESS_TOKEN_SECRET = os.environ.get('TW_ACCESS_TOKEN_SECRET')
 # # CORS settings
 
 # CORS_ORIGIN_WHITELIST = (
-#     'durhamfoodtrucks.today',
+#     'dcfoodtrucks.saran.tdy',
 #     'localhost:3000',
 # )
