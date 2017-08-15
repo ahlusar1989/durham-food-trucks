@@ -4,7 +4,7 @@ from api.models import Truck
 
 
 def index(request):
-    return JsonResponse({'hello': 'world'})
+    return JsonResponse({'yo': 'whats up'})
 
 
 def data(request):

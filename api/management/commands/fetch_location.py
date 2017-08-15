@@ -86,5 +86,5 @@ class Command(BaseCommand):
 
             by_truck[name].append(d['loc_adj'])
             prev['lat'], prev['lng'] = lat, lng
-
+        print(dict(by_truck))
         return dict(by_truck)
